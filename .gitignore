@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Model weights (multi-GB, fetched via huggingface_hub)
+model/model.safetensors
+model/multilingual/model.safetensors
+model/typed-decisions/model.safetensors
+model/**/*.safetensors
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
